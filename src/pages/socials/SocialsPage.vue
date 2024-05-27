@@ -7,16 +7,16 @@ import { DexIcon, PumpIcon, TelegramIcon, XIcon } from '@/app'
     <span class="fs-h1">JOIN US</span>
 
     <div class="socials_page-links_block">
-      <a href="https://t.me/solanabrick" class="socials_page-links_block-link">
+      <a href="https://t.me/solanabrick" target="_blank" class="socials_page-links_block-link">
         <img :src="TelegramIcon" />
       </a>
-      <a href="https://x.com/solanabrick" class="socials_page-links_block-link">
+      <a href="https://x.com/solanabrick" target="_blank" class="socials_page-links_block-link">
         <img :src="XIcon" />
       </a>
-      <a href="https://pump.fun/board" class="socials_page-links_block-link">
+      <a href="https://pump.fun/board" target="_blank" class="socials_page-links_block-link">
         <img :src="PumpIcon" />
       </a>
-      <a href="https://dexscreener.com/" class="socials_page-links_block-link">
+      <a href="https://dexscreener.com/" target="_blank" class="socials_page-links_block-link">
         <img :src="DexIcon" />
       </a>
     </div>

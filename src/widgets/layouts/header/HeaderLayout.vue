@@ -5,9 +5,15 @@
     <span class="fs-h2 header_layout-logo">$sperme</span>
 
     <nav class="header_layout-nav">
-      <h3 class="header_layout-nav-link">BUY</h3>
-      <h3 class="header_layout-nav-link">TELEGRAM</h3>
-      <h3 class="header_layout-nav-link">TWITTER</h3>
+      <a href="https://pump.fun/board" target="_blank">
+        <h3 class="header_layout-nav-link" target="_blank">BUY</h3>
+      </a>
+      <a href="https://t.me/solanabrick">
+        <h3 class="header_layout-nav-link" target="_blank">TELEGRAM</h3>
+      </a>
+      <a href="https://x.com/solanabrick">
+        <h3 class="header_layout-nav-link" target="_blank">TWITTER</h3>
+      </a>
     </nav>
   </header>
 </template>
@@ -22,6 +28,9 @@
     display: flex;
     align-items: center;
     gap: 60px;
+    a {
+      text-decoration: none;
+    }
     &-link {
       color: transparent;
       background-color: var(--n-base);
