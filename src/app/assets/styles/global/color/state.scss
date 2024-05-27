@@ -1,0 +1,45 @@
+:root {
+  --n-brand: #D46400;
+  --n-success: #53ec87;
+  --n-warn: #fbcd58;
+  --n-danger: #ec4949;
+  --n-base: #ffffff;
+  --n-default: #613413;
+
+  .c-brand {
+    color: var(--n-brand);
+  }
+  .bg-brand {
+    background-color: var(--n-brand);
+  }
+  .c-success {
+    color: var(--n-success);
+  }
+  .bg-success {
+    background-color: var(--n-success);
+  }
+  .c-warn {
+    color: var(--n-warn);
+  }
+  .bg-warn {
+    background-color: var(--n-warn);
+  }
+  .c-danger {
+    color: var(--n-danger);
+  }
+  .bg-danger {
+    background-color: var(--n-danger);
+  }
+  .c-base {
+    color: var(--n-base);
+  }
+  .bg-base {
+    background-color: var(--n-base);
+  }
+  .c-default {
+    color: var(--n-default);
+  }
+  .bg-default {
+    background-color: var(--n-default);
+  }
+}
